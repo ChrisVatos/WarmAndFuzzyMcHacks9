@@ -1,9 +1,5 @@
 const cats = ["white", "fuzzy", "little", "furry", "small", "siamese", "mean", "shorthair", "longhair", "loving", "excited", "peaceful", "sleeping", "adventurous", "daring", "hilarious", "silly", "charming"]
 
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
-
 let index = -1;
 
 function loop(arr) {
