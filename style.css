@@ -7,14 +7,58 @@
 
 .btn {
     position: relative;
-    top: 125px;
-    left: 700px;
+    top: 135px;
+    left: 665px;
 }
 
-#carouselExampleSlidesOnly {
+#catPic {
     height: 30%;
     width: 30%;
     margin: auto;
     position: relative;
     top: 100px;
+    text-align: center;
+}
+
+#catimg {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+body {
+    color:#fff;
+    background: linear-gradient(45deg, #EE7752, #E73C7E, #dab92a, #c0127d);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 15s ease-in-out infinite;
+}
+
+p {
+    position: relative;
+    top: 125px;
+    left: 40px;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20%;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-family: "helvetica";
+}
+
+
+@keyframes change {
+     0% {
+        background-position: 0 50%;
+    } 
+    50% {
+        background-position: 100% 50%;
+
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
