@@ -1,4 +1,4 @@
-# Warm And Fuzzy (McHacks 9)
+# Witty Kitty Committee
 This is our project for the Warm and Fuzzy category for McHacks 9
 
 As first-time participants in McHacks, my team and I developed a website that scraped the Unsplash Image API 
